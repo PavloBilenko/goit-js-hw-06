@@ -5,7 +5,7 @@ class Storage {
     this.#items = items;
   }
   getItems() {
-    return this.#items.slice();
+    return this.#items;
   }
   addItem(newItem) {
     this.#items.push(newItem);
